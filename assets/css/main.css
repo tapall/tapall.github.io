@@ -2968,6 +2968,34 @@ input, select, textarea {
 					width: 100%;
 				}
 
+			.spotlights > section > .video {
+				background-position: center center;
+				background-size: cover;
+				border-radius: 0;
+				display: block;
+				position: relative;
+				width: 30%;
+			}
+
+				.spotlights > section > .video vid {
+					border-radius: 0;
+					display: block;
+					width: 100%;
+				}
+
+				.spotlights > section > .video:before {
+					background: rgba(36, 41, 67, 0.9);
+					content: '';
+					display: block;
+					height: 100%;
+					left: 0;
+					opacity: 0;
+					position: absolute;
+					top: 0;
+					width: 100%;
+				}
+
+
 			.spotlights > section > .content {
 				display: -moz-flex;
 				display: -webkit-flex;
@@ -3016,6 +3044,10 @@ input, select, textarea {
 				width: 40%;
 			}
 
+			.spotlights > section > .video {
+				width: 40%;
+			}
+
 			.spotlights > section > .content {
 				width: 60%;
 			}
@@ -3025,6 +3057,10 @@ input, select, textarea {
 		@media screen and (max-width: 1280px) {
 
 			.spotlights > section > .image {
+				width: 45%;
+			}
+
+			.spotlights > section > .video {
 				width: 45%;
 			}
 
@@ -3041,6 +3077,10 @@ input, select, textarea {
 			}
 
 				.spotlights > section > .image {
+					width: 100%;
+				}
+
+				.spotlights > section > .video {
 					width: 100%;
 				}
 
